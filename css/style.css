@@ -58,6 +58,7 @@ main{
 
 .menu-bottom{
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   height: 70px;
   background-color: black;
@@ -102,17 +103,22 @@ main{
 .prova2{
   display: flex;
   flex-direction: row;
+  justify-content: center;
   background-color: black;
   color: white;
 }
 
-.prova3{
-  display: flex;
-  flex-direction: row;
-  background-color: blue;
-  color: red;
-}
 
 .end-meeting{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 150px;
+  background-color: rgb(74 74 74);
+}
 
+.end-meeting a{
+  text-decoration: none;
+  color: white;
 }
